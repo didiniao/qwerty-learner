@@ -94,14 +94,6 @@ const Footer: React.FC = () => {
           <FontAwesomeIcon icon={['fas', 'envelope']} className="text-gray-500 dark:text-gray-400 mr-3" />
         </a>
 
-        <div className="group relative inline-block ">
-          <a href="https://kaiyiwing.gitee.io/qwerty-learner/" className="text-gray-500 dark:text-gray-400 mr-3" title="中国大陆节点">
-            🇨🇳
-          </a>
-          <div className="invisible group-hover:visible absolute bottom-full left-1/2 w-40 -ml-20 pt-2 flex items-center justify-center">
-            <span className="py-1 px-3 text-gray-500 dark:text-gray-400 text-xs">中国大陆镜像</span>
-          </div>
-        </div>
         <span
           className="text-gray-500 dark:text-gray-400 cursor-pointer no-underline hover:no-underline "
           onClick={(e) => {

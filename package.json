@@ -48,7 +48,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "cross-env PORT=34567 craco start",
     "build": "cross-env CI=false craco build",
     "test": "craco test",
     "lint": "eslint .",
